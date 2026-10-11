@@ -1,6 +1,14 @@
+[Documentation](../docs/README.md) | [Configs](README.md) | [README](../README.md)
+
 # Sanitized server configurations
 
 Retrieved directly from accessible server files on October 11, 2026 through existing SSH access and Proxmox guest execution. These are sanitized copies of files read from the servers, not configurations reconstructed from chat history.
+
+## Browse the documentation
+
+[Personal Immich](../docs/reference/immich-personal.md) · [Second Immich](../docs/reference/immich-secondary.md) · [Media VM](../docs/reference/media.md) · [Minecraft VM](../docs/reference/minecraft-vm.md) · [Mint Minecraft](../docs/reference/minecraft-mint.md)
+
+Each catalog links to every file for that server role and lists its purpose, format, source path, and observed setting names.
 
 ## Coverage
 
