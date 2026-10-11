@@ -1,0 +1,18 @@
+[Unit]
+Description=Forever Stranded Minecraft server (Tailscale only)
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/minecraft/forever-stranded
+ExecStartPre=/usr/bin/python3 -c "import socket; s=socket.socket(); s.bind(('192.0.2.10',0)); s.close()"
+ExecStart=/usr/lib/jvm/temurin-8-jdk-amd64/bin/java -Xms2G -Xmx4G -jar forge.jar nogui
+Restart=always
+RestartSec=20
+KillSignal=SIGINT
+TimeoutStopSec=180
+SuccessExitStatus=130 143
+UMask=0027
+
+[Install]
+WantedBy=default.target

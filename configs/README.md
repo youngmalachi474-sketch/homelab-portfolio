@@ -9,9 +9,10 @@ Retrieved directly from accessible server files on October 11, 2026 through exis
 | Personal Immich VM | 3 | Active Compose JSON and Docker systemd drop-ins |
 | Second Immich VM | 3 | Compose YAML, Caddyfile, storage drop-in |
 | Media VM | 16 | ARR Compose, qBittorrent settings, application XML, Soularr, Homarr, slskd, Jellyfin settings |
+| Proxmox Minecraft VM | 258 | Native server settings, mod configuration, JourneyMap settings, and user systemd service |
 | Linux Mint Minecraft host | 258 | Compose, server.properties, mod `.cfg`, `.config`, `.ini`, and XML settings, JourneyMap settings |
 
-The personal Immich deployment uses `compose.json` on the server; its format was preserved. The Proxmox Minecraft VM has no QEMU guest agent configured and could not be read through that route. The collected Minecraft files came directly from the accessible Mint machine, which still had a running `forever-stranded` container. They do not establish the current configuration of the separate Proxmox Minecraft VM.
+The personal Immich deployment uses `compose.json` on the server; its format was preserved. The Proxmox Minecraft VM was retrieved through SSH after access was configured. It runs a native Minecraft server through a user systemd service and does not have Docker installed. Its files use the `minecraft-vm` prefix. The separately collected Mint files use the `minecraft-mint` prefix; that machine also had a running `forever-stranded` Docker container at collection time. Keep these two deployments separate when comparing settings.
 
 Bundled indexer definitions, databases, photo libraries, worlds, logs, backups, and actual `.env` files are excluded. The empty [.env.example](.env.example) is a generated variable-name scaffold, not a server secret file.
 
