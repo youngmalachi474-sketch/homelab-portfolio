@@ -14,3 +14,7 @@ Prepared October 11, 2026 from accessible chat history. Statements are historica
 The latest accessible Proxmox summary supersedes the older statement that the Immich migration was only planned. Older service locations remain labeled historical where newer evidence does not resolve placement.
 
 No employment history, certifications, degree, contact information, or GitHub account was inferred. Raw chats, private endpoints, family identifiers, and secrets are not included.
+
+## Direct server collection
+
+On October 11, 2026, read-only SSH and Proxmox guest execution retrieved 280 configuration files directly from two Immich VMs, the media VM, and the Linux Mint Minecraft host. The copies were sanitized locally before publication. The [configuration manifest](../configs/manifest.json) documents their provenance. The separate Proxmox Minecraft VM could not be read through guest execution because it has no guest agent configured.
