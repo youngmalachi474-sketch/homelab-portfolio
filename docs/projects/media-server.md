@@ -31,4 +31,4 @@ Hardware transcoding through AMD VA-API was reported working in prior FFmpeg out
 - Verify bounded container logging.
 - Test application configuration backups and restoration.
 
-This repository does not include a production Compose file because the reviewed chats did not provide a reliable, current configuration to reproduce.
+The [configuration collection](../../configs/README.md) now includes a sanitized Compose file and supporting settings read directly from the media VM on October 11, 2026. These are reference copies with secrets removed; they have not been deployed from this repository.
