@@ -1,3 +1,5 @@
+[Documentation](README.md) | [Configs](../configs/README.md) | [README](../README.md)
+
 # Homelab architecture
 
 This diagram summarizes roles described in the project chats. It does not establish the current placement of every service.

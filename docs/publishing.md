@@ -1,3 +1,5 @@
+[Documentation](README.md) | [Configs](../configs/README.md) | [README](../README.md)
+
 # Repository and visibility
 
 GitHub repository: https://github.com/youngmalachi474-sketch/homelab-portfolio

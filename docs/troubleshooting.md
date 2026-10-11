@@ -1,3 +1,5 @@
+[Documentation](README.md) | [Configs](../configs/README.md) | [README](../README.md)
+
 # My troubleshooting workflow
 
 This is the workflow I am practicing for homelab work and entry-level IT support.

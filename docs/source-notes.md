@@ -1,3 +1,5 @@
+[Documentation](README.md) | [Configs](../configs/README.md) | [README](../README.md)
+
 # Source notes and confidence
 
 Prepared October 11, 2026 from accessible chat history. Statements are historical reports, not fresh checks of the servers. Some assistant responses and earlier chat content were unavailable, so this portfolio is not an exhaustive account.
