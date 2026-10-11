@@ -17,4 +17,4 @@ No employment history, certifications, degree, contact information, or GitHub ac
 
 ## Direct server collection
 
-On October 11, 2026, read-only SSH and Proxmox guest execution retrieved 280 configuration files directly from two Immich VMs, the media VM, and the Linux Mint Minecraft host. The copies were sanitized locally before publication. The [configuration manifest](../configs/manifest.json) documents their provenance. The separate Proxmox Minecraft VM could not be read through guest execution because it has no guest agent configured.
+On October 11, 2026, read-only SSH and Proxmox guest execution retrieved 538 configuration files directly from two Immich VMs, the media VM, the Linux Mint Minecraft host, and the Proxmox Minecraft VM. The copies were sanitized locally before publication. The [configuration manifest](../configs/manifest.json) documents their provenance. The Proxmox Minecraft VM was subsequently read through SSH; it uses a native server and user systemd service.
