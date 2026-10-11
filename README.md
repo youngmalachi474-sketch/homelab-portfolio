@@ -16,6 +16,10 @@ My current career focus is entry-level IT support. I am proficient with Microsof
 
 See the [architecture](docs/architecture.md), [troubleshooting approach](docs/troubleshooting.md), and [next steps](docs/roadmap.md).
 
+## Server configurations
+
+[Sanitized server configurations](configs/README.md) were retrieved directly from the accessible homelab servers on October 11, 2026. They include Compose files, JourneyMap `.config` files, Minecraft mod settings, service settings, and supporting application configuration. Secrets and personal identifiers were removed before upload. See the manifest for the source role and anonymized path of each file.
+
 ## Tools I have worked with
 
 - **Systems:** Proxmox VE, Debian, Linux Mint, Docker Compose, systemd.
