@@ -1,3 +1,5 @@
+[Documentation](../README.md) | [Configs](../../configs/README.md) | [README](../../README.md)
+
 # Self-hosted media server
 
 ## Goal

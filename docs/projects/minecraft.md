@@ -1,3 +1,5 @@
+[Documentation](../README.md) | [Configs](../../configs/README.md) | [README](../../README.md)
+
 # Minecraft hosting
 
 ## Documented deployment
