@@ -15,9 +15,13 @@ The project included JourneyMap server settings, waypoint teleporting, and Ultim
 
 ## Open checks
 
-- Confirm whether the server still runs on Mint or has moved to Proxmox.
+- Confirm which of the Mint and Proxmox deployments is intended to be the primary server.
 - Confirm the final hunger and thirst settings.
 - Record the current persistent data mounts and restart behavior.
 - Perform a backup and restore test before claiming recoverability.
 
 The versions above describe a historical deployment and are not a recommendation for a new installation.
+
+## Direct server configuration collection
+
+The [configuration collection](../../configs/README.md) includes separate sanitized files from both the Mint host and the Proxmox Minecraft VM, retrieved directly on October 11, 2026. The Proxmox VM uses a native Minecraft installation managed by a user systemd service; Docker is not installed there. Use files prefixed `minecraft-vm` for that deployment and `minecraft-mint` for the Mint Docker deployment.
