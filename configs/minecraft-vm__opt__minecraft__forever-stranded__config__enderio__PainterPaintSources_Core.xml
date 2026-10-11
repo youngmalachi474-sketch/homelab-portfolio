@@ -1,0 +1,9 @@
+<PainterPaintSources>
+  <whitelist>
+    <itemStack modID="Thaumcraft" itemName="blockWoodenDevice" itemMeta="6" />
+    <itemStack modID="Thaumcraft" itemName="blockWoodenDevice" itemMeta="7" />
+  </whitelist>
+  <blacklist>
+
+  </blacklist>
+</PainterPaintSources>
