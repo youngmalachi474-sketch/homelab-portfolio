@@ -1,3 +1,5 @@
+[Documentation](docs/README.md) | [Configs](configs/README.md) | [README](README.md)
+
 # Malachi | Homelab & IT Support Portfolio
 
 I learn by building, testing, and troubleshooting my own systems. This repository documents my personal homelab, with a focus on Linux, virtualization, self-hosted applications, and practical support skills.
