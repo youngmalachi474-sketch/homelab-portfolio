@@ -1,0 +1,23 @@
+# Sanitized copy read from a server on 2026-10-11. Review before use.
+services:
+  slskd:
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+    image: slskd/slskd
+    container_name: slskd
+    user: 1000:1000
+    environment:
+    - UMASK=0002
+    ports:
+    - 5030:5030
+    - 5031:5031
+    - 50300:50300
+    volumes:
+    - /home/example/slskddir:/app
+    - /mnt/media/downloads/soulseek:/downloads
+    - /mnt/media/downloads/slskd-incomplete:/incomplete
+    - /home/example/slskddir/shared:/shared
+    restart: always

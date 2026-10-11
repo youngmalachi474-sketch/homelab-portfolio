@@ -1,0 +1,1689 @@
+{
+  "retrieved_date": "2026-10-11",
+  "files": [
+    {
+      "file": "immich-personal__opt__immich__compose.json",
+      "server_role": "immich-personal",
+      "source_path": "/opt/immich/compose.json",
+      "sha256_sanitized": "b4d78b53b5d25733df792de1f007b0dc82efc49cdf3386617e9f30a4fc5cfb72"
+    },
+    {
+      "file": "immich-personal__etc__systemd__system__docker.service.d__immich-network.conf",
+      "server_role": "immich-personal",
+      "source_path": "/etc/systemd/system/docker.service.d/immich-network.conf",
+      "sha256_sanitized": "ed63760d2fa06a9c098aafa5de633e9b4457dff94c6963c0203b7f715bcdf6b6"
+    },
+    {
+      "file": "immich-personal__etc__systemd__system__docker.service.d__immich-storage.conf",
+      "server_role": "immich-personal",
+      "source_path": "/etc/systemd/system/docker.service.d/immich-storage.conf",
+      "sha256_sanitized": "ccb8116c83918190dd8fe26fc5e35bf1449bdfa55a498ef66f88086ee9c66ae6"
+    },
+    {
+      "file": "immich-secondary__opt__immich__docker-compose.yml",
+      "server_role": "immich-secondary",
+      "source_path": "/opt/immich/docker-compose.yml",
+      "sha256_sanitized": "4653b579ab4f61d15abb7c7e623177389f92c232f4dc0cb178ad7dd6559dd18a"
+    },
+    {
+      "file": "immich-secondary__etc__caddy__Caddyfile",
+      "server_role": "immich-secondary",
+      "source_path": "/etc/caddy/Caddyfile",
+      "sha256_sanitized": "8179dbf65fc9fe07efec4c22111455e75f3075c92f636a0695d1532605a346c2"
+    },
+    {
+      "file": "immich-secondary__etc__systemd__system__docker.service.d__immich-storage.conf",
+      "server_role": "immich-secondary",
+      "source_path": "/etc/systemd/system/docker.service.d/immich-storage.conf",
+      "sha256_sanitized": "ccb8116c83918190dd8fe26fc5e35bf1449bdfa55a498ef66f88086ee9c66ae6"
+    },
+    {
+      "file": "media__home__example__arr-stack__compose.yml",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/compose.yml",
+      "sha256_sanitized": "d48e2bddf40ed70677f9bfb454437098a8583a7e0d513ba5d5054701ab391ac4"
+    },
+    {
+      "file": "media__home__example__arr-stack__config__soularr__config.ini",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/config/soularr/config.ini",
+      "sha256_sanitized": "4f4e166e03c89a6bd8e74fd8d6b141fcd934ad2b01aa661a2e45f4bee85fcb3e"
+    },
+    {
+      "file": "media__home__example__arr-stack__config__qbittorrent__qBittorrent__qBittorrent.conf",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/config/qbittorrent/qBittorrent/qBittorrent.conf",
+      "sha256_sanitized": "7babd562ce4ecb61c60943af0196907fd0191b013085c5844ce0d677ed079f51"
+    },
+    {
+      "file": "media__home__example__arr-stack__config__qbittorrent__qBittorrent__qBittorrent-data.conf",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/config/qbittorrent/qBittorrent/qBittorrent-data.conf",
+      "sha256_sanitized": "4b1c1495b5a49ff6f54cb7346c5d4e488012ae41c551982f82050cdcc076f97f"
+    },
+    {
+      "file": "media__home__example__arr-stack__config__sonarr__config.xml",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/config/sonarr/config.xml",
+      "sha256_sanitized": "c36e5480a2f8f425f297b35dfaf4170671ca82b5d45719660fff478f48f52a86"
+    },
+    {
+      "file": "media__home__example__arr-stack__config__radarr__config.xml",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/config/radarr/config.xml",
+      "sha256_sanitized": "d4ecfd23925744a346563de342349dc47fda13b80d49f7310987b7329b572f6c"
+    },
+    {
+      "file": "media__home__example__arr-stack__config__lidarr__config.xml",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/config/lidarr/config.xml",
+      "sha256_sanitized": "e37edcb0b6e1bf33ef30f1c1ead7ed964449f5f2e2f0a1f5d2be91bcc55126aa"
+    },
+    {
+      "file": "media__home__example__arr-stack__config__prowlarr__config.xml",
+      "server_role": "media",
+      "source_path": "/home/example/arr-stack/config/prowlarr/config.xml",
+      "sha256_sanitized": "f5b4374fbf991b17a746d2c8b11547d99124ff0363ea15ea6d69092fd84f1b61"
+    },
+    {
+      "file": "media__etc__jellyfin__encoding.xml",
+      "server_role": "media",
+      "source_path": "/etc/jellyfin/encoding.xml",
+      "sha256_sanitized": "4d6ab4fb1ee3804785622dc778cf7a99cf241ecdb5e6e434b5a526a1a98fb998"
+    },
+    {
+      "file": "media__etc__jellyfin__network.xml",
+      "server_role": "media",
+      "source_path": "/etc/jellyfin/network.xml",
+      "sha256_sanitized": "f5cc2439dca49ab5bb544efffce0ee12961882ad532b4fdef77fb07ad6390aff"
+    },
+    {
+      "file": "media__etc__jellyfin__system.xml",
+      "server_role": "media",
+      "source_path": "/etc/jellyfin/system.xml",
+      "sha256_sanitized": "197b617bb570b44638d805c6e035b84ebabb9312639a07ae185d6299f276855e"
+    },
+    {
+      "file": "media__etc__jellyfin__database.xml",
+      "server_role": "media",
+      "source_path": "/etc/jellyfin/database.xml",
+      "sha256_sanitized": "6c76140cf4c94cd11e253da4d904781b927c41543b7f77960d507660701077f8"
+    },
+    {
+      "file": "media__home__example__homarr__compose.yml",
+      "server_role": "media",
+      "source_path": "/home/example/homarr/compose.yml",
+      "sha256_sanitized": "ec24caadad86bc052fa74c15a7e1251be39bfeb155425ac5e9df9f83e2280261"
+    },
+    {
+      "file": "media__home__example__slskddir__compose.yaml",
+      "server_role": "media",
+      "source_path": "/home/example/slskddir/compose.yaml",
+      "sha256_sanitized": "7a0c17e258d3755190e79378d0c176feadf57beefac09558a3dff69e168e450f"
+    },
+    {
+      "file": "media__home__example__slskddir__slskd.yml",
+      "server_role": "media",
+      "source_path": "/home/example/slskddir/slskd.yml",
+      "sha256_sanitized": "21e3804e8bacb5fbde5df45664ac426b86fcc67509a5dbc44c4fe547b829003a"
+    },
+    {
+      "file": "media__etc__docker__daemon.json",
+      "server_role": "media",
+      "source_path": "/etc/docker/daemon.json",
+      "sha256_sanitized": "f2ed05c6f5934a15f12571139bdc225804f67b8c83561cc39868f7b2296d2697"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__compose.yml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/compose.yml",
+      "sha256_sanitized": "1219daeaec52a2f33e74539d71c5a521a78d5d28c9cf490921ae757bcad12ec3"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__server.properties",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/server.properties",
+      "sha256_sanitized": "c2ef739c1c06d7f44875956bd497680d31d05ec026b6160ab08bdd11936be9f3"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Baubles.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Baubles.cfg",
+      "sha256_sanitized": "4f67cfb718e3fac3993a353d252c3fdc7ac6589d1235c06fc6cba32c9eaf4526"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__keep_hunger.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/keep_hunger.cfg",
+      "sha256_sanitized": "a3197511f1136fe93bd0ac356c4d2482b2fa022a5a47f4232bbc2f2f56bf66e5"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__CoroUtil.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/CoroUtil.cfg",
+      "sha256_sanitized": "1ff56d9e2b84bb7e0267f8fc1b317a705997698f784ab7eedc84f93f97d1091d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__betterbuilderswands.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/betterbuilderswands.cfg",
+      "sha256_sanitized": "cf131e4f12b9a6a81c74ae03a597c567bab9fc0791db93ce7260789be4d757ef"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__WailaHarvestability.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/WailaHarvestability.cfg",
+      "sha256_sanitized": "161543dae1b8afacb9498806522b3af1e466fee7a01eb68379015b913597345b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__darkutils.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/darkutils.cfg",
+      "sha256_sanitized": "2c7fa453812ebe741a9700a103d2e479e555578cd2c5565809a268a34b3b0733"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__immersiveengineering.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/immersiveengineering.cfg",
+      "sha256_sanitized": "4f1d79d8a0a533da1582535ca5f70bc6da2993cdbe0c36129c75a4c004969914"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__IC2.ini",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/IC2.ini",
+      "sha256_sanitized": "1e2c656187eb88f4c91e5a412202dbc522dda4bc17a367d806e2af726a6f9de2"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__appleskin.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/appleskin.cfg",
+      "sha256_sanitized": "23b5714b56813b5979a74982939f92a577e8ab69b3a5efb55d7d00587cd14243"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Lockdown.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Lockdown.cfg",
+      "sha256_sanitized": "0d936c7a5a672bc48c10bbc629f5476c911b97220c46dc84fb49629682d737d9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ChickenChunks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ChickenChunks.cfg",
+      "sha256_sanitized": "5ae5148161352f100f44cc387921fcff229b9a8cedee73bb03d465f9cc050b15"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__tconstruct.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/tconstruct.cfg",
+      "sha256_sanitized": "9a2cedab3670c6eced1562c83eaf2739f54c81db1c4035591ac24c7bea8ab98b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__IGWMod.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/IGWMod.cfg",
+      "sha256_sanitized": "85c9a69b91b50e7a4ec026de65b9cfc59b711b5e139060c9cc8bac561d02625d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ToughExpansion.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ToughExpansion.cfg",
+      "sha256_sanitized": "9623a4d47b4e1f044defb08ee1023782b1a02bbcad387b4b707902bbc2074af9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cyclopscore.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cyclopscore.cfg",
+      "sha256_sanitized": "153f6c1516382a58adc2b883b1794d88d094af2581829c7a243246b917b9fe03"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ignitehud.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ignitehud.cfg",
+      "sha256_sanitized": "371f69ab1f2bbbcbe96746d550c2935bc10af5a29d0bad8b7cfa4a48a0fc41ff"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DiscordSuite.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DiscordSuite.cfg",
+      "sha256_sanitized": "019bc01f3ea284fb97e35ba1ab6fcd9464f431acbaf7aa114fd4f65095edafbf"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__chiselsandbits_clipboard.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/chiselsandbits_clipboard.cfg",
+      "sha256_sanitized": "81d8b11057a70f6d0207090d2d75f757729c05c44531bf47b3f7d564757754d4"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__omlib.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/omlib.cfg",
+      "sha256_sanitized": "d1f114774272d7bb70ca076fa728ec707b6952b4346355193af8d529f2c17496"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__badwithernocookie.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/badwithernocookie.cfg",
+      "sha256_sanitized": "21978b9fa15fc00f83c7227977bc9c6d4d2d2746e86c16401d367d20e0934c8f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__wopper.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/wopper.cfg",
+      "sha256_sanitized": "71060e650963fab7098459b60649f90e330cf64141d63c76b5cd38821195831e"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__integrateddynamics.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/integrateddynamics.cfg",
+      "sha256_sanitized": "998169c5af5399af0a6aed51faa917a472fe85da1fa50a032e45a4b31b24c77f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Woot.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Woot.cfg",
+      "sha256_sanitized": "9c787621f2e6403df3f0fac5303890eec49435443a8a75555ae367c389a92ea1"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__extrautils2.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/extrautils2.cfg",
+      "sha256_sanitized": "2e4727be9af4a0139cedbab604047d0dee664ffcedba1e696728b8f294aaf05b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Translocator.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Translocator.cfg",
+      "sha256_sanitized": "93acdb2b01fe54b4e790208da4f0030ce6b76cffdd1c5c855be9c55c4947213c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__StorageDrawers.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/StorageDrawers.cfg",
+      "sha256_sanitized": "5ef5d87320d4136321c46371870bf3e61cf46bee9da9cac9cb1fed65e108dce0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ftbultimine.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ftbultimine.cfg",
+      "sha256_sanitized": "e0a3da595132b6b9a9df963d4125df6a38def0c13785d627f6e0f3e3ae206006"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__TinkerToolLeveling.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/TinkerToolLeveling.cfg",
+      "sha256_sanitized": "f37f8213105cd93338ac26d8844b23e2b3110462ddd6e9fb7b42a7e518042e17"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__CustomBackgrounds.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/CustomBackgrounds.cfg",
+      "sha256_sanitized": "918273132cf93245060fd5140b7e6c32f7ed00bf3b3b5ba374217c0e263b5e6f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__reborncore.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/reborncore.cfg",
+      "sha256_sanitized": "5e20a4a599ef211af3372c4c6855121b779058f02c211544268d4226c074a26c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__wawla.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/wawla.cfg",
+      "sha256_sanitized": "6b965459ce32eacc4b434a413544a352c25e84d66bf484afbed779f891d9786d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__commoncapabilities.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/commoncapabilities.cfg",
+      "sha256_sanitized": "a691265bb14ac08a4fce7590e4f0d79d35ce89e9ad06d22b4346c13b6f753c95"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__PerfectSpawn.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/PerfectSpawn.cfg",
+      "sha256_sanitized": "97f5454cb9bf55ad93391df12ae68a772843a795d02df02522882c918081450a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__libVulpes.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/libVulpes.cfg",
+      "sha256_sanitized": "d69d0902887bbd1e66ba81766d70329bab1c3344ce88edf06cd58391e8549757"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__WirelessCraftingTerminal.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/WirelessCraftingTerminal.cfg",
+      "sha256_sanitized": "95d5d0e096e79fbb7c392b2431001ab123056df2054f77110be04e4d6ddca8cb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__bloodmoon.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/bloodmoon.cfg",
+      "sha256_sanitized": "949e4e27a42284ee01abc84fc272a651968d2458e152c2e9f0c37f1f9856d14b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__progressiveautomation.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/progressiveautomation.cfg",
+      "sha256_sanitized": "dacd92108ffd27c582c8f0964e3d89aba3c880604c3d3a081ad90c62835b2095"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Quark.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Quark.cfg",
+      "sha256_sanitized": "c6c966b21f7f743864979e9cc05ad83374f9da006d8898714a283c27df1c5335"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__TinkerModules.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/TinkerModules.cfg",
+      "sha256_sanitized": "0a33fe0ac0753e3fd5e547ae733fa4898de6b164214c72dd136e8917357bed03"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__moartinkers.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/moartinkers.cfg",
+      "sha256_sanitized": "5206de156a947a6a77622cced511514fc10dd8dc94939b35202f8770a07e3f77"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forgeChunkLoading.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forgeChunkLoading.cfg",
+      "sha256_sanitized": "80fb751754c88be679ea571210b07eaa068514e33fa0bd779dc9d2fcc71d9619"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__randomthings.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/randomthings.cfg",
+      "sha256_sanitized": "f8b9e3c51f1f3da2d7bf39484201d72a0cae03263a956b90f2c0bfced2c9a9c4"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enchdesc.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enchdesc.cfg",
+      "sha256_sanitized": "3f0039b82b29f32a93b8b5622e9fd919b519fcaae74d7a52b5c75e32c14426b9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__TinkersAddons.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/TinkersAddons.cfg",
+      "sha256_sanitized": "acfd2bad1f4ea1c6c1a9257f0ad2cc6b13ccd6ad3f386196bb27cf72827353e0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__simplyjetpacks-client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/simplyjetpacks-client.cfg",
+      "sha256_sanitized": "38318ee595bee85484e4d067a9a5ee5659d5c4c12f78a9ca398c8b1f49aad68c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__immersivecables.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/immersivecables.cfg",
+      "sha256_sanitized": "a2d5b4bf42af7a718092b41fb674abde74abff0451532b50b5c9f795fa8580fa"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cookingforblockheads.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cookingforblockheads.cfg",
+      "sha256_sanitized": "1461b19d8b44a20720b80b2c0e66a96b70298faa621d8253640feec6125a4069"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__openmodularturrets.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/openmodularturrets.cfg",
+      "sha256_sanitized": "55cc5c70014ba5bfaf91add9609662855981d6783712850c61fe1a7d1bd54684"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ding.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ding.cfg",
+      "sha256_sanitized": "8ab1de4fbcdacd8623ce9874d0cb9e9abc0ebf5a470ae42b802a8fb1c9f4b5cd"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__BetterQuestingTriggerer.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/BetterQuestingTriggerer.cfg",
+      "sha256_sanitized": "35e4d4f91ecbddb6db5fc54013b8ed9afe8e2d3538e1b58176a9c30a491a33a0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__refinedstorage.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/refinedstorage.cfg",
+      "sha256_sanitized": "0c335afbc042423210af9ec684fff9a747a938f0e9383b8fc235ffdbfc44d076"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ceramics.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ceramics.cfg",
+      "sha256_sanitized": "abb78165c2603cdcc19760bf82a2b2f59cf42ab473917698f2fc1a6f50bd949f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__CoroUtil_DynamicDifficulty.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/CoroUtil_DynamicDifficulty.cfg",
+      "sha256_sanitized": "9b4f479aea990cfc00a2e9c82fd99dcc78151cb1a9f047d4844d6b21accfc2cf"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Morpheus.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Morpheus.cfg",
+      "sha256_sanitized": "73f6633c9900d0073297042201e0522515ae8b017f57e7acf89e2c4168fa1483"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__blur.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/blur.cfg",
+      "sha256_sanitized": "338710bd4b9698b0990cf87e7bd9f47aa57e4f51a6510d7a17cfb594faac1d57"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__betterquesting.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/betterquesting.cfg",
+      "sha256_sanitized": "438ef8a34c1b1f44d70c3d8b0a35a72778c97c04b2fbd47cfbea1417cfbf5972"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Bloodmoon.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Bloodmoon.cfg",
+      "sha256_sanitized": "31b97f27225f806fd2261b61b49e4430ddcab4ad168d7f7e984658ae713aed98"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__MoreOverlays.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/MoreOverlays.cfg",
+      "sha256_sanitized": "1a6ba798e6ccdc21ccece8adfab1241c6fd166363870f7262b9fbe31d17ff1fc"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__bookshelf.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/bookshelf.cfg",
+      "sha256_sanitized": "801222181d2dc2d4f9faa39dc6bc8836c560e5b3596e8d8bc70501cdc90738b2"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__p455w0rdsLib.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/p455w0rdsLib.cfg",
+      "sha256_sanitized": "4af687c4490efca56b62ee8ff32800dbe6e53ddca99255fb88202b8ee2025bf3"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__avaritia.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/avaritia.cfg",
+      "sha256_sanitized": "84a63a82a3c63daf7b46afb6c22664b1970680de34c99853144372a91bd1dbc2"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__EnderStorage.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/EnderStorage.cfg",
+      "sha256_sanitized": "e4807c65935324b9de22a7a60b6529dc73d1365eafbf7884227a56315bc0d0fa"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__bq_standard.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/bq_standard.cfg",
+      "sha256_sanitized": "12497ab81d8015b88efbfaa8ee5d79e3fac3211f2bbfda2b04435f316d5ed625"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__CodeChickenCore.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/CodeChickenCore.cfg",
+      "sha256_sanitized": "a809efa1a9feadfda13f9637b44ef1080616658893a427ca3d4c6b96a8ab422a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Neat.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Neat.cfg",
+      "sha256_sanitized": "78513896113adbe812de8a8813940703a795ac279b76357e2a6c37cbd66cbb23"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ctm.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ctm.cfg",
+      "sha256_sanitized": "c4341308196916ff88e9e752d462b3fab6c33d7f91a661b2d67bfd03f8767e6d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__flatcoloredblocks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/flatcoloredblocks.cfg",
+      "sha256_sanitized": "a65d7fa9b124ac76d39a627d9fbd7d486e2cb4a566275b1ce38fb4da06433dbc"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__soundfilters.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/soundfilters.cfg",
+      "sha256_sanitized": "9755abc755b1ecd598fabc318ef31e4dfd875c6b1cee22ee7f18dd0fff58e64a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__battletowers.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/battletowers.cfg",
+      "sha256_sanitized": "e28fb979ffea693fc51de99c2cb9af9564323c5e8d989b4bd18eac74374ac274"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__torchmaster.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/torchmaster.cfg",
+      "sha256_sanitized": "79fe089e4311c9c00c6b2000ef4dd7b8c0c36ab4f2b530a1515c291f308f01fa"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__supercraftingframe.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/supercraftingframe.cfg",
+      "sha256_sanitized": "f6e0c67ac52e2732d12e178b656bc9bb03c0753437c8696ed3e43bcd2ed301eb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__QuantumStorage.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/QuantumStorage.cfg",
+      "sha256_sanitized": "6eb0442f3eaaebea43156be86d757c907417d9100c8051e56d9d0dfe8f0e736e"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__actuallyadditions.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/actuallyadditions.cfg",
+      "sha256_sanitized": "fe2d9fa6d785874ae6d9f20914567c08adea05d942dbbd5a8a86ce25bd093fc9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__InvTweaks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/InvTweaks.cfg",
+      "sha256_sanitized": "fd2f726af80bb38dfae19d7616f086f79e6721b8f29dc99a9456838bd3907250"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__chisel.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/chisel.cfg",
+      "sha256_sanitized": "c3e77dab2f6919a7674cba778662383fdf2ce734629e3fe97dc6d6e23f8491ce"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__SpiceOfLife.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/SpiceOfLife.cfg",
+      "sha256_sanitized": "cd2ce2df42c9eebb20d37e89af820f39c56f36607dbe383fa0dba58484a3d760"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__gravestone.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/gravestone.cfg",
+      "sha256_sanitized": "a8683aac1bf5c2055bbbd5e847004dfa9e63e8f6506741f370a7e72e6007ae40"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__simplyjetpacks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/simplyjetpacks.cfg",
+      "sha256_sanitized": "adb94813419ff126491e794eaf266b51e356630df88215584999e00720ceb0e0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__simplegenerators.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/simplegenerators.cfg",
+      "sha256_sanitized": "81a0d83f090efcea5947815af19fd0b2de3ee01da354beda120de59e8dc9e905"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__integratedtunnels.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/integratedtunnels.cfg",
+      "sha256_sanitized": "ca1147ea8fea1fa176d07cc41ac71a55b62887b63bab544030142a492a75fce3"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__MouseTweaks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/MouseTweaks.cfg",
+      "sha256_sanitized": "134633aa506225e68cc3f5bbffaacbaaf4928f0752a5e79f51eec36b2bea0e58"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__MikeDongles.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/MikeDongles.cfg",
+      "sha256_sanitized": "69d19dd7e1d0155a294640f1d33b4fd919bbc2571052d02eafd0ee811b92932f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__spartanshields.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/spartanshields.cfg",
+      "sha256_sanitized": "ba6b52fc01529e9680666e0ca6c491d9f76ea1617419ba42c44e0cf850b683a8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DimensionalEdibles.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DimensionalEdibles.cfg",
+      "sha256_sanitized": "dfc3387aa3be8f44ff2a42583d1532bd935a254db824be8616c5ade407f58382"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__betterwithmods.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/betterwithmods.cfg",
+      "sha256_sanitized": "5cc9254693d4ba8bb40d431399d107f041cace42f89925780d318d84cf380408"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ironbackpacks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ironbackpacks.cfg",
+      "sha256_sanitized": "c071e5ba2d7b61cf8b712a63dac0d4ad9b19b786cbe92f6dfa36b57b3490c45f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__openglider.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/openglider.cfg",
+      "sha256_sanitized": "e50f2a05c629fe08499762145e1bc3fbe363b19060e9cf8e44b608ddc2a4731a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ts2k16.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ts2k16.cfg",
+      "sha256_sanitized": "f74a928183427c77bc24da214d29ee88b00f812ccbb5901cc8ac750b7c13df4c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__chiselsandbits.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/chiselsandbits.cfg",
+      "sha256_sanitized": "9257a4422708f83071bc0b23aeb4ab790b17c8693f204527ab5c95cf73a785d7"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__snad.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/snad.cfg",
+      "sha256_sanitized": "6d2f8fb9b0a07e0597661c5b78e476f441006e2efa1f93edd1867fa30bfc0026"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__spartanweaponry.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/spartanweaponry.cfg",
+      "sha256_sanitized": "bb704898882e86c7149d2929959bf2f4e172327d46ade04e7a264142ac94bec9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__nuclearcraft.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/nuclearcraft.cfg",
+      "sha256_sanitized": "f5205b1959279ee397509332b9b9d99962ea6b703f3cee8023344ba8c81e1062"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__storagedrawersextra.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/storagedrawersextra.cfg",
+      "sha256_sanitized": "15080b1f0363a5fd727083f2ee1d3288906e1acd2c28646864b1f3ddacd9ef3a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__harvestcraft.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/harvestcraft.cfg",
+      "sha256_sanitized": "ff9af229f4e9dffbf94587ed8c27d0d2bb4fcf3eb4e0c655da627bb68d33b7cc"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__quantumflux.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/quantumflux.cfg",
+      "sha256_sanitized": "ea66fc57eba76dadf031c803be11d675cd22dd0aa45f7598145a9aeb68a23800"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__infinitefluids.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/infinitefluids.cfg",
+      "sha256_sanitized": "809e247cabb8c2001e0e51de6dfdb9e3c0e23c76442043b0b69db5e3f3d1b9b4"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__industrialwires.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/industrialwires.cfg",
+      "sha256_sanitized": "0c89847d63dc36a942749fa52afb090df26e80eb3422c7721922a734a76225c4"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__stats_keeper.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/stats_keeper.cfg",
+      "sha256_sanitized": "5cbf19e9babf49775fb40f9411b65593fa8e1f9ec2e676cc28cee264f114060b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__hopperducts.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/hopperducts.cfg",
+      "sha256_sanitized": "bfe67d5ffccc7b74faae7c4bdcf9bb8fcb1e9e9ef8dad40d11fd5350e23a59af"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__slug.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/slug.cfg",
+      "sha256_sanitized": "ab4622abd69581b553598df836bbf4212d8b943b1b1afc692cc5b554a9a27001"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__journeymap_ModInfo.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/journeymap_ModInfo.cfg",
+      "sha256_sanitized": "1ad8eaab44406a32c6909417a8228b2b248c44985c02818f5543a088838273ae"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__foamfix.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/foamfix.cfg",
+      "sha256_sanitized": "ed9e343e234bf71e619bed5529f11f3dd83d2b799e4737da976ff3dd00de4273"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forge.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forge.cfg",
+      "sha256_sanitized": "0a9a6b2c794551ff68fe8e4a85b628976c1e0c7f20675e71c2ced2ccf00ff756"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__woot__woot.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/woot/woot.cfg",
+      "sha256_sanitized": "67bb01cdb9719e6e394c905bc90f4fa09341ea436c7d273223a7917aa4e712b0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__toughasnails__gameplay.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/toughasnails/gameplay.cfg",
+      "sha256_sanitized": "ebfc7323e5e787a581c199b8abc87a81d1a57e6a0b1b9ff8bc0679408f2f8648"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__PressurePipes__client.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/PressurePipes/client.config",
+      "sha256_sanitized": "da6eecc4eea78b7421d6f1dfcb3dde3f5f409ae1f72c788748f4535962939121"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__sstow__SoulShards.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/sstow/SoulShards.cfg",
+      "sha256_sanitized": "f8a96b4d0f1282930c9a94acba666830b02ca839227e29d6e9be95241742670a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__aroma1997__Aroma1997Core.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/aroma1997/Aroma1997Core.cfg",
+      "sha256_sanitized": "3b158525d5fc752c1d2802bbcacf5ce5d9ed62499e5b1d84f75f090c4831fa85"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__aroma1997__AromaBackup.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/aroma1997/AromaBackup.cfg",
+      "sha256_sanitized": "71b506443f44eaa5d657a9b6e4eb8c84be1f4870d9265277b3d417b2f26c3704"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__aroma1997__AromaBackupRecovery.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/aroma1997/AromaBackupRecovery.cfg",
+      "sha256_sanitized": "c63e8df2f864487389a2c51cad60a59e78b461129ceee2693c1d69bb7f5b1ecd"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Extreme_Reactors__Extreme_Reactors.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Extreme Reactors/Extreme Reactors.cfg",
+      "sha256_sanitized": "4b8cdca884af96b5a9a3c8b488996e876aec07a80510b97078ed49c52d1c4c57"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__redstonearsenal__client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/redstonearsenal/client.cfg",
+      "sha256_sanitized": "54ce044e327bcc115f9b9d954fb061e705619e9ad8b895cb564bc948e89d312a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__redstonearsenal__common.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/redstonearsenal/common.cfg",
+      "sha256_sanitized": "79044b90739e2793b4f4da7516b2df6893a3452b113ecf83c28c4c7c3a5081be"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__core__client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/core/client.cfg",
+      "sha256_sanitized": "50b3d7535dabd0bc6c7a197caf10518861dbec79f77cbe1d70aac0903f54801c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__core__common.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/core/common.cfg",
+      "sha256_sanitized": "58a60fe960e33f00ee282e8cb0fbf99380e2481bf3b18e42bd83257a093ab725"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__core__friends.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/core/friends.cfg",
+      "sha256_sanitized": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermalexpansion__client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermalexpansion/client.cfg",
+      "sha256_sanitized": "be954b896f783afe50ab950c43b00737475c33065a7b176969485a2ca08edfec"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermalexpansion__common.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermalexpansion/common.cfg",
+      "sha256_sanitized": "45c0cc4c7d2a027dbafef9b821e30252ba5cd9e7e1bbd061486bdb07a048bcda"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermalexpansion__florbs.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermalexpansion/florbs.cfg",
+      "sha256_sanitized": "b1f574e49d9eb9314f622c2bb81f578b3aee525f64efda5a95f46fa0788e1e01"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermalexpansion__fuels.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermalexpansion/fuels.cfg",
+      "sha256_sanitized": "b2d7976ec0e4517e141a13c1453831119d26526c2d1f34ea13fb32870b898ed0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermaldynamics__client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermaldynamics/client.cfg",
+      "sha256_sanitized": "493751928ffbfbd35039d6e47c8fb67e3f233031e78e907b5add1f90947452fb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermaldynamics__common.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermaldynamics/common.cfg",
+      "sha256_sanitized": "637b1d0642597fe44db20fd9ff72bba3c5a56f72ef855c45a24f8019eb305bb8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermalfoundation__client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermalfoundation/client.cfg",
+      "sha256_sanitized": "bbe89c84fd8952b6e257926969d20f946c5dc3b178cdd937a6530bcb5d9d4683"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermalfoundation__common.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermalfoundation/common.cfg",
+      "sha256_sanitized": "95e809a1b5e247e100c7533e9057590425d1158aaf031e85c011729f9e957e57"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cofh__thermalfoundation__lexicon-whitelist.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cofh/thermalfoundation/lexicon-whitelist.cfg",
+      "sha256_sanitized": "27d9ff750aa128cd3cb6c9f058c981495f3aabfe524f415add140ebc76f8e73b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__exnihiloadscensio__ExNihiloAdscensio.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/exnihiloadscensio/ExNihiloAdscensio.cfg",
+      "sha256_sanitized": "0de5c38fe6e9c5230258d38f1824c0f4423f9c5bc03d4749c3a7d8baf50cb9f2"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__JEI__searchColors.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/JEI/searchColors.cfg",
+      "sha256_sanitized": "da4e49b0703b334e665dd056a0db10befbed245168ceba9c50377cd6eb1102a8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__JEI__jei.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/JEI/jei.cfg",
+      "sha256_sanitized": "dd13eeabcc41cee3be6f58c40fa5adbcce5f8ba7b2f522d17c083128f5f4f808"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__JEI__worldSettings.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/JEI/worldSettings.cfg",
+      "sha256_sanitized": "d72a85ad85d786b5f4365e92f02d05abbe09ec3d9efb270ccf8545685f07397a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__JEI__itemBlacklist.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/JEI/itemBlacklist.cfg",
+      "sha256_sanitized": "377a59d78968f8160d1855592cef23921684962b2780c89bed349670330e4948"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__brandon3055__DraconicEvolution.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/brandon3055/DraconicEvolution.cfg",
+      "sha256_sanitized": "1e5ae595eea05fedec83c9c42e6139136338590349dc876370ce9f3a46799f78"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__brandon3055__ProjectIntelligence__projectintelligence.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/brandon3055/ProjectIntelligence/projectintelligence.xml",
+      "sha256_sanitized": "8093a6d9b50601014ba79c99963a20a465004e1b7213574798295f4779a8df15"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__brandon3055__ProjectIntelligence__ModDocs__Draconic_Evolution__draconicevolution-en_US.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/brandon3055/ProjectIntelligence/ModDocs/Draconic Evolution/draconicevolution-en_US.xml",
+      "sha256_sanitized": "672e276a8cb9541eca555f8d24dfda54b6c8cf6ad1705f7a29330afad4aaed77"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Tiny_Progressions__Main.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Tiny Progressions/Main.cfg",
+      "sha256_sanitized": "10c7e9af503f5598fe47f5e74250b41b4887d6c9ca96ff6545e2e42f741dbd7d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__lepidopterology.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/lepidopterology.cfg",
+      "sha256_sanitized": "b2a52496cd5915977fd4cbc1e31df0532704b4bf122c6d8759410f36cc91b1ab"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__common.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/common.cfg",
+      "sha256_sanitized": "fb3b74959ddba54b3f20b6837b0ee1d350efbb323f0e8f6d272c964e5eec17e9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__plugins.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/plugins.cfg",
+      "sha256_sanitized": "3dd2d2d1f757091375ad268ceeca6e85d3017562cc9ffee3e91ab15b9b9aabdb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__backpacks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/backpacks.cfg",
+      "sha256_sanitized": "2f74e9f0cf85fd561ed492dfb18a79cc7961e505b23c8335565ea13a79a8a94f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__fluids.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/fluids.cfg",
+      "sha256_sanitized": "3e8a4c6717d4ca2628ded469dd233f744c5145b81e084e452aad365ea70bb805"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__farm.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/farm.cfg",
+      "sha256_sanitized": "cd6b72175b6de2089da91f860d99a31cb9bb2bee6252da3db28aa9df1095f031"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__apiculture.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/apiculture.cfg",
+      "sha256_sanitized": "54fadb596f372689cf424bb679100d3d91e46905e9a29082f96cd3b49351e0b7"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__gamemodes__EASY.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/gamemodes/EASY.cfg",
+      "sha256_sanitized": "2a1f672c72f76e933d50cf8860a4cf70b3ab5c37073aee85e1a5f54eca557637"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__gamemodes__NORMAL.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/gamemodes/NORMAL.cfg",
+      "sha256_sanitized": "e47cb17994de0c002bd492387d8124c36b38f1f1789597ee10316bce088cb87d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__gamemodes__HARD.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/gamemodes/HARD.cfg",
+      "sha256_sanitized": "a091ecbb91552df805abe184aef94e6819d1d328cef7f5a165cf66bc27384f65"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__forestry__gamemodes__OP.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/forestry/gamemodes/OP.cfg",
+      "sha256_sanitized": "71b47e48e2d4c6bffb1d65d9a2d3f63b6a74b819fdc3487ce6c0603d95ec7611"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_aliases_core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_aliases_core.xml",
+      "sha256_sanitized": "696c1c3c56c8af6c07cd9eb5fffa49b8a06293a3cac52161fcf28cfdad337d0c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__EnchanterRecipes_Core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/EnchanterRecipes_Core.xml",
+      "sha256_sanitized": "9fc7e5ca24731f73a036f1419f2d4ff19ce548db5afd70a741eaae96b397a252"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__OreDictionaryPreferences_Core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/OreDictionaryPreferences_Core.xml",
+      "sha256_sanitized": "2409257401820ee32455e9d272dcba5db3958484f6604ccbe48ec2158bd46950"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__AlloySmelterRecipes_Core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/AlloySmelterRecipes_Core.xml",
+      "sha256_sanitized": "e7d04d94bd6af68dda60a19c2cd081d4a8b6569eec31e89184f51ba943e174cc"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_machines_user.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_machines_user.xml",
+      "sha256_sanitized": "21458ea70e9a255a202e4c9945a0b67f22c9fdae9c3b649c1bb30c06fc6b1f0f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__SliceAndSpliceRecipes_Core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/SliceAndSpliceRecipes_Core.xml",
+      "sha256_sanitized": "cd5d17ef7fb8b02a371e797b7d66bcbccd48851026ee1a8751e6e0ff1c81608b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__OreDictionaryPreferences_User.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/OreDictionaryPreferences_User.xml",
+      "sha256_sanitized": "5da48e4522e0ed795842ef6c58717c9b26c0d92fed1a8a893e50f1bce46559cb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_items_user.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_items_user.xml",
+      "sha256_sanitized": "21458ea70e9a255a202e4c9945a0b67f22c9fdae9c3b649c1bb30c06fc6b1f0f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_items_core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_items_core.xml",
+      "sha256_sanitized": "fa202eac0379e6a5096d5219e54b96bc287aa8a4de37e35fdd362a8266a0b1bb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__SliceAndSpliceRecipes_User.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/SliceAndSpliceRecipes_User.xml",
+      "sha256_sanitized": "6037f21e3ced1bd9dc3df79bf7b12106cb31f550cf76a945ee55267f0363934b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_machines_core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_machines_core.xml",
+      "sha256_sanitized": "aac3b0ff70d09a83984cf68c986fcecf4961f4f5cf9c7cf5951e2f5d50e473eb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__PainterPaintSources_Core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/PainterPaintSources_Core.xml",
+      "sha256_sanitized": "f0deee92b3b08abc3d5db1424105870162b87e1da2b5a1d961d0c7bf6248afc4"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__SAGMillRecipes_User.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/SAGMillRecipes_User.xml",
+      "sha256_sanitized": "18608fe60469b8d9df894fc452efb8fb08d427b49f2a6dda03ec6e3e9343a06f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__EnchanterRecipes_User.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/EnchanterRecipes_User.xml",
+      "sha256_sanitized": "830978cd648e31174749d75c802c02cddc054b50f61fba5aa9ad1ce7da337a64"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__PainterPaintSources_User.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/PainterPaintSources_User.xml",
+      "sha256_sanitized": "ce9a0595cfc8332650ee97f0e5136ac2cd83970a46edb4e02b8e54a0055781ae"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__VatRecipes_Core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/VatRecipes_Core.xml",
+      "sha256_sanitized": "f4a0f3fdb28bdbd4df96a08c6d26f9858607b22a2ad98e0ada0e4469f5538447"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__EnderIO.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/EnderIO.cfg",
+      "sha256_sanitized": "203b1d1940655cc63c630370e05292f60a3a1240074dcc022b8e4df1ca1bd0e7"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__VatRecipes_User.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/VatRecipes_User.xml",
+      "sha256_sanitized": "e5556310b265aa0765eb1386e6636401d9eb142bec6d620477ecdec551c78079"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__SAGMillRecipes_Core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/SAGMillRecipes_Core.xml",
+      "sha256_sanitized": "3e65c479e6cccbea304c5339fa8abdb0312da5ad0d015cf7818850e0e7b06ad5"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_materials_core.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_materials_core.xml",
+      "sha256_sanitized": "26c0a38afb7bce91e287a9ebd972a3d645c897b1ee53ace504f7a7a675f0f2e1"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_materials_user.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_materials_user.xml",
+      "sha256_sanitized": "21458ea70e9a255a202e4c9945a0b67f22c9fdae9c3b649c1bb30c06fc6b1f0f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__AlloySmelterRecipes_User.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/AlloySmelterRecipes_User.xml",
+      "sha256_sanitized": "ff0b92c5d8e3302610ef00c61be0b7395f4ac32496b1c96e488d0eb2464d6fee"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__enderio__recipe_aliases_user.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/enderio/recipe_aliases_user.xml",
+      "sha256_sanitized": "21458ea70e9a255a202e4c9945a0b67f22c9fdae9c3b649c1bb30c06fc6b1f0f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__waila__waila.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/waila/waila.cfg",
+      "sha256_sanitized": "0cba6bd5628abd125920b39ac825ffd63f1b6c62ac7d1eebaa56c471830cd85e"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__environmentaltech__worldgen.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/environmentaltech/worldgen.cfg",
+      "sha256_sanitized": "64d1594dfeb218752382a7cc271612cd14722ad44d19e837802903504efd041c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__environmentaltech__machines.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/environmentaltech/machines.cfg",
+      "sha256_sanitized": "ef6b9a1a3df3ce666a50f71099b71ace737c2ce6e4984a69ec5dee0061f9786a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__environmentaltech__client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/environmentaltech/client.cfg",
+      "sha256_sanitized": "19540bd7a9a03d3323a405de51d15e1e90f467b9f57734e7c22d5c9d683f20f0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__environmentaltech__general.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/environmentaltech/general.cfg",
+      "sha256_sanitized": "212324da6c70754a19e83aff22a7f289434384314136c83273f95a656d2c86a5"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ElevatorMod__ElevatorMod.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ElevatorMod/ElevatorMod.cfg",
+      "sha256_sanitized": "958040a3a3240a42ff988e6c4d77ebbca56bf016e56314420e4164450be710a2"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ExCompressum__ExCompressum.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ExCompressum/ExCompressum.cfg",
+      "sha256_sanitized": "12219d867a525503b35340b7c0006de120fffc4b8525c46d2a52badc95eba229"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__jeresources__jeresources.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/jeresources/jeresources.cfg",
+      "sha256_sanitized": "7ca2ddb702b122b1a08d954cd7e561ffd8ce34d1eb95cefae139ceafbd03e3f5"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__blocks.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/blocks.cfg",
+      "sha256_sanitized": "bda151693ad794292a57b3fa1d35d2df0cedf7085e41dd8e41f8bbba6c4e0407"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__client.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/client.cfg",
+      "sha256_sanitized": "2d4063502105efbda1befdbe78e81159a319f9a8933c980fc1edcf14f1994a65"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__items.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/items.cfg",
+      "sha256_sanitized": "b0eadc7f5dd6c47d56d75846b7f85200f3d032f87b1c686ba10c0f1d00054a14"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__railcraft.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/railcraft.cfg",
+      "sha256_sanitized": "7758987e748e767f960e411474718f9c5a6dff5c209ef44d0e288c21ba389d59"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__modules.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/modules.cfg",
+      "sha256_sanitized": "5028935288f9db6101fa6a787831d31c388b57c416f4557228ee9a5bce529083"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__entities.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/entities.cfg",
+      "sha256_sanitized": "723f59eb54d850853881d7e92bf9bac55b75a45850e781e831765dcdbb86bfae"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_zinc.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_zinc.cfg",
+      "sha256_sanitized": "ae4f423e415453f22ecc30ed358ddf95d76247c62937bb2fa64d29802563b6f1"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_nickel.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_nickel.cfg",
+      "sha256_sanitized": "e081c3cf7f1f987b1bc47ee7f4105447006f569672fc2eda09d58e5151b00cdf"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_tin.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_tin.cfg",
+      "sha256_sanitized": "3c7c247fc537b6cf72ab3504930fff8e1987077f850a985ebe6b419dfb008263"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_lead.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_lead.cfg",
+      "sha256_sanitized": "ca75ef243b19411097bce5b4cb4fffa7dd0a20d6fd73d15399a50a0f506c12d0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_gold.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_gold.cfg",
+      "sha256_sanitized": "12fa0051b6baf0337888e1f1473e8c0680d9e1ed4fe70ebefe983171f3179f12"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_silver.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_silver.cfg",
+      "sha256_sanitized": "20f836a3e59d36bab1d8253e9ea88137c23a6c455eb325a59f1f1904e27a7c95"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_iron.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_iron.cfg",
+      "sha256_sanitized": "95df0794390fb01824f5b7e41ab59dd846643c82c73fd1e6c9cf26fbece4a0c9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__railcraft__ores__mine_copper.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/railcraft/ores/mine_copper.cfg",
+      "sha256_sanitized": "3c425a89278a19523454ce994fcecbbf42e672d636c81767c27e5a6ddc214b90"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__chests.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/chests.cfg",
+      "sha256_sanitized": "5c2e697eab96e258666ad9886a52255f6430b34d3f7cd7ab22d95c3b888ce08d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__nbt.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/nbt.cfg",
+      "sha256_sanitized": "2bb820daa07afe6efcc8e139b0fb05fa953014eb4897c3780b3e8fc41f92cfd5"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__DLDungeonsJBG.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/DLDungeonsJBG.cfg",
+      "sha256_sanitized": "70ac6361ab12ff18f9790061b52cbbb80a28317c6911d8d450d39a6187200ceb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__mesa.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/mesa.cfg",
+      "sha256_sanitized": "35c324d34b76c5102793de21894f4d9d66a4431db249294bdf5b544d5bf25f19"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__common.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/common.cfg",
+      "sha256_sanitized": "10d46cc4e2aabff9fea9dae6ce5fe49b0064289391ad797e433d64a776cbfc92"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__continentalShelf.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/continentalShelf.cfg",
+      "sha256_sanitized": "3abf68bf0c02c7345bb303fcff3e46274d537e544f0c60ab1e661d4e06effb7e"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__urban.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/urban.cfg",
+      "sha256_sanitized": "105931c75dc154089cfe25bd80584946567b715627b22d03690848f926926fd2"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__frozen.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/frozen.cfg",
+      "sha256_sanitized": "3d4f9d11102cadc16001dee0eccf3f884317fdd7479086044036b7feb827aa01"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__nether.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/nether.cfg",
+      "sha256_sanitized": "1240206ca87fbb157f69feed733f1804c738671714be771387089261796ee98e"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__template.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/template.cfg",
+      "sha256_sanitized": "657dc18de1e8c275a3eb87878c99d8552f570c053f29514acd29398492aa02df"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__volcanic.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/volcanic.cfg",
+      "sha256_sanitized": "bbd4bda1fe3e8df9b7ce8e20d2a06beb9af825ab199e28aba43e41a0d51e3c77"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__dank.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/dank.cfg",
+      "sha256_sanitized": "eb78cb4f919e0c57c9cec00e5fcb6936d3977ccb281d73bcd15b4b631c2c428f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__desert.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/desert.cfg",
+      "sha256_sanitized": "09e144aa3f33994315c4fbfb71180bec883957c6d72d56c46c685ee295511ca1"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__oceanic.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/oceanic.cfg",
+      "sha256_sanitized": "bc32477ce3cc86990d6dc38fd3644f865953a24861e2fa405526b300cc8cf2ee"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__villagelike.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/villagelike.cfg",
+      "sha256_sanitized": "ff4da825b003c8ae341723aa3000af6f9ead68144b89ff1d29a5b3aa11eb39b3"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__DLDungeonsJBG__themes__jungle.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/DLDungeonsJBG/themes/jungle.cfg",
+      "sha256_sanitized": "8b282704b573b0b909bf442b70067dcbdbb8f4b479fbbacff5a4a8b6f9fb07c9"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__PrecisionAssembler.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/PrecisionAssembler.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__oreConfig.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/oreConfig.xml",
+      "sha256_sanitized": "85b1f66e8616c233a97983029b76b20edbc50969107d35b884d77ea3420dafc1"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__ElectricArcFurnace.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/ElectricArcFurnace.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__Crystallizer.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/Crystallizer.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__advancedRocketry.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/advancedRocketry.cfg",
+      "sha256_sanitized": "1713c228e1666e9964b2967e69ab66377f9f7cdb545b363f8dbcb68b47bd133f"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__ChemicalReactor.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/ChemicalReactor.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__Lathe.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/Lathe.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__SmallPlatePress.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/SmallPlatePress.xml",
+      "sha256_sanitized": "e5f787a6a1044f518ce11068a7dd266318e24312377f7be13b31283b9abb1b4a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__Electrolyser.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/Electrolyser.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__CuttingMachine.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/CuttingMachine.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__RollingMachine.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/RollingMachine.xml",
+      "sha256_sanitized": "779070aa67855afa80b9e1f4116fc36f5b92096430dd854aba76179c117d03b8"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__advRocketry__asteroidConfig.xml",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/advRocketry/asteroidConfig.xml",
+      "sha256_sanitized": "e5a305d19689aa933688ef85d4b458d717322444078ed3454c4e30eda9aef1c5"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Weather2__Tornado.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Weather2/Tornado.cfg",
+      "sha256_sanitized": "3e6fbd2a0d7ad53242be32e31c5e5cc383d9514b53c8775e6348745871e448f3"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Weather2__Wind.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Weather2/Wind.cfg",
+      "sha256_sanitized": "c4a3d4546218ddd68c8092b27b0ed90b0dfaac3efd9641b32fa978ff61b355c3"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Weather2__Sand.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Weather2/Sand.cfg",
+      "sha256_sanitized": "6bcd836c3af524f68913d6b3dc6fa23d2a178040fda9e5109a2d2d643e0eb2ce"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Weather2__Particle.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Weather2/Particle.cfg",
+      "sha256_sanitized": "a5db0cf686660eb6891845139adac46e6cb7f5103190e796ff55b9065f0ac09b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Weather2__Storm.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Weather2/Storm.cfg",
+      "sha256_sanitized": "1155b32f120ae59f23006a22f5177c676e3a69e337172f0bc234336dd8f97e00"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Weather2__Misc.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Weather2/Misc.cfg",
+      "sha256_sanitized": "69397b5ec4e8ebb4dea100a6961c8f8ead977d560174d4c42f7d2dd29ac95103"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__Weather2__Snow.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/Weather2/Snow.cfg",
+      "sha256_sanitized": "7a118c60fa0e147428933b2eb85a51ad33c6a0a76be5074bf068712a25d9fb86"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__AppliedEnergistics2__VersionChecker.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/AppliedEnergistics2/VersionChecker.cfg",
+      "sha256_sanitized": "02c3182d4e9332d1463b3b09fa72d561817c64b0f11a0f39a9ef661c7ac6a22c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__AppliedEnergistics2__Facades.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/AppliedEnergistics2/Facades.cfg",
+      "sha256_sanitized": "e3289b8763bdfed26b64531906781acd452039df76e14ec63eeeb25797777b74"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__AppliedEnergistics2__AppliedEnergistics2.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+      "sha256_sanitized": "b149bc2f3730f5bedc20956f093b7d6cf0631f13a568541b8736f1b79e42948a"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__AppliedEnergistics2__CustomRecipes.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/AppliedEnergistics2/CustomRecipes.cfg",
+      "sha256_sanitized": "569fb35ac194fa1c3ca7c8cce4ac99456e4ec4225dd64fcaa9d82fecb9e3c398"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__AppliedEnergistics2__extracells.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/AppliedEnergistics2/extracells.cfg",
+      "sha256_sanitized": "53b9bb123370e6915886e7156b13e89e954a89be034d144b93a05c3a233b8ef0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ACRONYM__BASE__General.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ACRONYM/BASE/General.cfg",
+      "sha256_sanitized": "c2ec1547a8593ade51c1246812c66001c9ff1eac770faee0d1fce27cc38c58d2"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ACRONYM__CLUMPS__General.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ACRONYM/CLUMPS/General.cfg",
+      "sha256_sanitized": "db940d3b6f6fdffe4b57569fd0217b2d6839a72cc7138228c3e1ac7c3a89fceb"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__bbm__Wooden_Shears.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/bbm/Wooden_Shears.cfg",
+      "sha256_sanitized": "7e6bad0044ca5b608d1f0fcb58f135d94d47fc1c922ee66e5dc589da0c0ae943"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__bbm__Wooden_Bucket.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/bbm/Wooden_Bucket.cfg",
+      "sha256_sanitized": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__bbm__Fluid_Module__core.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/bbm/Fluid_Module/core.cfg",
+      "sha256_sanitized": "9bf569f31af45d277f83fff42273aac4d54e6f6df98618859c63452900c6dc94"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__bbm__Fluid_Module__bucket_materials.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/bbm/Fluid_Module/bucket_materials.cfg",
+      "sha256_sanitized": "d02201f2af1148d38eac8303ecdbe2719198af682c34601190ed28b0e69cdb55"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__FarmingForBlockheads__FarmingForBlockheads.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/FarmingForBlockheads/FarmingForBlockheads.cfg",
+      "sha256_sanitized": "e67b90b0a285f75a2f60e8908405fea7975cf56627ac53d778b595ed0cc9d5d0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ZombieAwareness__Spawning.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ZombieAwareness/Spawning.cfg",
+      "sha256_sanitized": "5ad3e7a7f8033f1a397c205e375938978bd327dae07c14e89e6b405cdcd08f9c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ZombieAwareness__ClientConfig.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ZombieAwareness/ClientConfig.cfg",
+      "sha256_sanitized": "9df3ea4ce567a203a3a387d3bddde889acdf5c44f914ed75dcd7b4601be6084e"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ZombieAwareness__PlayerRulesAndLists.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ZombieAwareness/PlayerRulesAndLists.cfg",
+      "sha256_sanitized": "7ce50b9aee99b4492652cbb39151255c4bc1e0f925d00cb2216fb17f1822e013"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ZombieAwareness__General.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ZombieAwareness/General.cfg",
+      "sha256_sanitized": "ff209f7316c30c4d94103ad589ebe98a3ccddc9d801aea2f3ab94c9d7f763f78"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ZombieAwareness__MobLists.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ZombieAwareness/MobLists.cfg",
+      "sha256_sanitized": "06398bb62a9cda57fb445ab95800f00d566f01564d62ebb66492eaf0c6d876e1"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__ZombieAwareness__Features.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/ZombieAwareness/Features.cfg",
+      "sha256_sanitized": "aacc5707d76d56987bbb4bf34f9e1677d36a73c20ae42e65b0aa399d8200225d"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__cm2__settings.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/cm2/settings.cfg",
+      "sha256_sanitized": "919f62b599b8213f1d32af8b57c8d139378feacbdc79242339e826cc8e57bbe4"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__endercore__endercore.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/endercore/endercore.cfg",
+      "sha256_sanitized": "9ea03cc2844b79615b2bd2d589ecb65f1dbd088b35dbc1f0f12ff68c0850f994"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__mputils__mputils.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/mputils/mputils.cfg",
+      "sha256_sanitized": "f7bf5b5e92a427383f61562c5fec5daf073b947a32c98f2159a1509c4bbbe43e"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__config__mputils__addons__mpbasic__mpbasic.cfg",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/config/mputils/addons/mpbasic/mpbasic.cfg",
+      "sha256_sanitized": "8de4e40a4c9e7f85c7a928730d2d5e91703d2e622e2985537b99864a66001a80"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim-9999.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim-9999.config",
+      "sha256_sanitized": "99c456e4a7e162f9a25919aaef32d067483467be851160980d8692c361a31594"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim0.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim0.config",
+      "sha256_sanitized": "3120e3952d2ec2f26d29aec2b3fabe5eec0ac39ec33ea3068662d9b3795c8565"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim-2.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim-2.config",
+      "sha256_sanitized": "47a8e5af675bf244fa516b4fbb2ff2952af80a43b7f5f2815d40a0c743a6f2d0"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim-11325.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim-11325.config",
+      "sha256_sanitized": "66044d9735db2a0a963ed367024b80fe59cd9e70d24e7b474ec15d6353580b8c"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim144.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim144.config",
+      "sha256_sanitized": "bdeedbc24ec0a0876be45635eaa2f2e9841a0db45f46a3e4e96c8adb1c1478be"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim-343800852.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim-343800852.config",
+      "sha256_sanitized": "f9e61dd4658fcd41648403e4ccd3e5dbdcf37de43986d912206be01f4bb8d7e1"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim1.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim1.config",
+      "sha256_sanitized": "6581b2e486c2224830f3ed957ebb3fe8f01e440ef43168be8a86e698b4e6641b"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.global.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.global.config",
+      "sha256_sanitized": "2670d01757eec007c9d71ac2d02da322f1273b7907786c78669ba4b13a6ce754"
+    },
+    {
+      "file": "minecraft-mint__home__example__minecraft__forever-stranded__journeymap__server__5.5__journeymap.server.dim-1.config",
+      "server_role": "minecraft-mint",
+      "source_path": "/home/example/minecraft/forever-stranded/journeymap/server/5.5/journeymap.server.dim-1.config",
+      "sha256_sanitized": "cff0a391a6368ed4e0cae88d9962981f77b670d8ce3b7b4dfe602ad6cb18cabd"
+    }
+  ],
+  "skipped": [],
+  "unavailable": [
+    "Proxmox Minecraft VM: no QEMU guest agent; Mint Minecraft files collected instead"
+  ]
+}

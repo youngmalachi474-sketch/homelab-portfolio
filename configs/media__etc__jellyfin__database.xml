@@ -1,0 +1,4 @@
+<DatabaseConfigurationOptions>
+  <DatabaseType>Jellyfin-SQLite</DatabaseType>
+  <LockingBehavior>NoLock</LockingBehavior>
+</DatabaseConfigurationOptions>

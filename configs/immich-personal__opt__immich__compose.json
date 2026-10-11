@@ -1,0 +1,149 @@
+{
+  "name": "immich",
+  "networks": {
+    "default": {
+      "name": "immich_default",
+      "ipam": {}
+    }
+  },
+  "services": {
+    "database": {
+      "command": null,
+      "container_name": "immich_REDACTED",
+      "entrypoint": null,
+      "environment": {
+        "POSTGRES_DB": "immich",
+        "POSTGRES_INITDB_ARGS": "--data-checksums",
+        "POSTGRES_PASSWORD": "REDACTED",
+        "POSTGRES_USER": "REDACTED"
+      },
+      "healthcheck": {},
+      "image": "ghcr.io/immich-app/REDACTED@sha256:bcf63357191b76a916ae5eb93464d65c07511da41e3bf7a8416db519b40b1c23",
+      "networks": {
+        "default": null
+      },
+      "restart": "always",
+      "shm_size": "134217728",
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/opt/immich/REDACTED",
+          "target": "/var/lib/REDACTEDql/data",
+          "bind": {}
+        }
+      ]
+    },
+    "immich-machine-learning": {
+      "command": null,
+      "container_name": "immich_machine_learning",
+      "entrypoint": null,
+      "environment": {
+        "DB_DATABASE_NAME": "immich",
+        "DB_DATA_LOCATION": "./REDACTED",
+        "DB_PASSWORD": "REDACTED",
+        "DB_USERNAME": "REDACTED",
+        "IMMICH_VERSION": "v3",
+        "TZ": "America/Chicago",
+        "UPLOAD_LOCATION": "./library"
+      },
+      "healthcheck": {},
+      "image": "ghcr.io/immich-app/immich-machine-learning@sha256:f8b2869891c861a58dde969d86e7ea8a186e6059a55886632ee3249e51fb574a",
+      "networks": {
+        "default": null
+      },
+      "restart": "always",
+      "volumes": [
+        {
+          "type": "volume",
+          "source": "model-cache",
+          "target": "/cache",
+          "volume": {}
+        }
+      ]
+    },
+    "immich-server": {
+      "command": null,
+      "container_name": "immich_server",
+      "depends_on": {
+        "database": {
+          "condition": "service_started",
+          "required": true
+        },
+        "redis": {
+          "condition": "service_started",
+          "required": true
+        }
+      },
+      "entrypoint": null,
+      "environment": {
+        "DB_DATABASE_NAME": "immich",
+        "DB_DATA_LOCATION": "./REDACTED",
+        "DB_PASSWORD": "REDACTED",
+        "DB_USERNAME": "REDACTED",
+        "IMMICH_VERSION": "v3",
+        "TZ": "America/Chicago",
+        "UPLOAD_LOCATION": "./library"
+      },
+      "healthcheck": {},
+      "image": "ghcr.io/immich-app/immich-server@sha256:ae13784ffcfcce8f4178113eb6661602a1fd1912f3d539880b8ac0dd95fc8ac2",
+      "networks": {
+        "default": null
+      },
+      "ports": [
+        {
+          "mode": "ingress",
+          "target": 2283,
+          "published": "2283",
+          "protocol": "tcp",
+          "host_ip": "192.0.2.10"
+        },
+        {
+          "mode": "ingress",
+          "target": 2283,
+          "published": "2283",
+          "protocol": "tcp",
+          "host_ip": "127.0.0.1"
+        }
+      ],
+      "restart": "always",
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/mnt/immich",
+          "target": "/data",
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "/etc/localtime",
+          "target": "/etc/localtime",
+          "read_only": true,
+          "bind": {}
+        }
+      ]
+    },
+    "redis": {
+      "command": null,
+      "container_name": "immich_redis",
+      "entrypoint": null,
+      "healthcheck": {
+        "test": [
+          "CMD-SHELL",
+          "redis-cli ping | grep -q PONG || exit 1"
+        ]
+      },
+      "image": "valkey/valkey@sha256:70739f85ad2ee01a726a965584a0f94895f01b0c60b3cc8b0aeef11eaa6888cf",
+      "networks": {
+        "default": null
+      },
+      "restart": "always"
+    }
+  },
+  "volumes": {
+    "model-cache": {
+      "name": "immich_model-cache"
+    }
+  }
+}
